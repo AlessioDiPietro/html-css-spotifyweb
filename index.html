@@ -7,6 +7,9 @@
     <link rel="shortcut icon" type="img/png" href="img/favicon.ico">
     <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>SpotifyWeb Clone</title>
 </head>
 <body>
@@ -14,12 +17,45 @@
  
         <!-- inizio racc. musica -->
         <main>
+        
             <div class="row">
+                <!-- barra laterale utente -->
                 <aside class="nav-utente col-xs-1"></aside>
+
+                <!-- corpo libreria mus-->
                 <div class="libreria col-xs-11">
                     <div class="row">
-                        <div class="col-xs-12 libreria"></div>
+                        <!-- upgrande section -->
+                        <section class="col-xs-12 upgrade">
+                            <div class="row end-xs">
+                                <a href="#">effettua l&#39;upgrade</a>
+                            </div>
+                        </section>
 
+                        <!-- nav ricerca macrogruppi -->
+                        <section class="col-xs-12">
+                                <ul class="row center-xs">
+                                    <li><a href="#">in evidenza</a></li>
+                                    <li><a href="#">podcast</a></li>
+                                    <li><a href="#">classifiche</a></li>
+                                    <li><a href="#">generi e mood</a></li>
+                                    <li><a href="#">nuove uscite</a></li>
+                                    <li><a href="#">scopri</a></li>
+                                </ul>    
+                        </section>
+
+                        <!-- riprodotti di recente -->
+                        <section class="col-xs">
+                            <h2>Riprodotti di recente</h2>
+                            <div class="row">
+                                <div class="col-xs-2 album">album 1</div>
+                                <div class="col-xs-2 album">album 2</div>
+                                <div class="col-xs-2 album">album 3</div>
+                                <div class="col-xs-2 album">album 4</div>
+                                <div class="col-xs-2 album">album 5/div>
+                                <div class="col-xs-2 album">album 6</div>
+                        </div>
+                        </section>
                     </div>
                 </div>
             </div>

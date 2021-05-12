@@ -1,10 +1,49 @@
+/* barra laterale utente */
 .nav-utente {
     background-color: black;
     height: 90vh;
 }
+
+/* corpo libreria mus */
+h2 {
+    color: white;
+    margin: 30px 15px;
+    font-size: 30px;
+}
+
 .libreria {
     background-color: #141922;
 }
+
+/* bottone upgrade */
 .upgrade {
     background-color: #080b12;
+}
+.upgrade a {
+    text-transform: uppercase;
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px;
+    margin: 30px 10px;
+    padding: 5px 30px;
+}
+
+/* nav ricerca macroguppi */
+.col-xs-12 ul li {
+    display: inline-block;
+    margin: 15px;
+}
+.col-xs-12 ul li a {
+    color: #606368;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+
+
+/* footer */
+footer {
+    background-color: #282828;
+    height: 10vh;
 }
