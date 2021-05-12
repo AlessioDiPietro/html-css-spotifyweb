@@ -10,11 +10,19 @@ h2 {
     margin: 30px 15px;
     font-size: 30px;
 }
-
+h3, h5 {
+    text-transform: capitalize;
+    margin: 7px;
+}
+h5 {
+    color: #606368;
+}
 .libreria {
     background-color: #141922;
 }
-
+img {
+    width: 100%;
+}
 /* bottone upgrade */
 .upgrade {
     background-color: #080b12;
@@ -39,6 +47,14 @@ h2 {
     text-transform: uppercase;
 }
 
+/* riprodotti di recente */
+.selezione {
+    text-align: center;
+    padding: 10px;
+}
+.selezione h3 {
+    color: white;
+}
 
 
 
