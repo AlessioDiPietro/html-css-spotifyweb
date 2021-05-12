@@ -102,6 +102,20 @@ li {
     .rotondo-xs {
         border-radius: 50%;
     }
+    .scale-up2-xs {
+        transform: scale(2);
+    }
+
+    /* posizioni */
+    .inline-xs{
+        display: inline;
+    }
+    .m-left10-xs{
+        margin-left: 10px;
+    }
+    .overflow-y-auto-xs {
+        overflow-y:scroll;
+    }
 } 
 
 @media (min-width: 1200px) {

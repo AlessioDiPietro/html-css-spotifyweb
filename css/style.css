@@ -2,18 +2,25 @@
 .nav-utente {
     background-color: black;
     min-height:100vh;
-    padding: 10px;
+    padding: 15px;
 }
 .nav-utente a{
     color: #606368;
 }
 #logo{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
-.item-aside {
+.nav-utente div  {
     color:#606368 ;
     margin-top: 10px;
+    font-weight: bold;
     text-transform: capitalize;
+}
+.nav-utente ul {
+    height: 65vh;
+}
+.nav-utente li {
+    margin: 30px 0;
 }
 
 
@@ -30,7 +37,7 @@ h2 {
 }
 h3, h5 {
     text-transform: capitalize;
-    margin: 7px 0px;
+    margin: 10px 0px;
     color:white;
 }
 
