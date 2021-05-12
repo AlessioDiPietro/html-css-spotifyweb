@@ -1,19 +1,19 @@
 /* barra laterale utente */
 .nav-utente {
     background-color: black;
-    height: 90vh;
+    min-height:100vh;
 }
 
 /* corpo libreria mus */
 h2 {
     color: white;
-    margin: 30px 15px;
     font-size: 30px;
 }
 h3, h5 {
     text-transform: capitalize;
-    margin: 7px;
+    margin: 7px 0px;
 }
+
 h5 {
     color: #606368;
 }
@@ -55,7 +55,9 @@ img {
 .selezione h3 {
     color: white;
 }
-
+.titolo{
+    margin: 30px 15px;
+}
 
 
 /* footer */
