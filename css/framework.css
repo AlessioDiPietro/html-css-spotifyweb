@@ -28,6 +28,12 @@ li {
     flex-wrap: wrap;
 }
 
+.row-column {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 [class*="col-"] {
     flex: 0 0 auto;
 } 
