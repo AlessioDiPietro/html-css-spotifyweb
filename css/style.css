@@ -2,7 +2,25 @@
 .nav-utente {
     background-color: black;
     min-height:100vh;
+    padding: 10px;
 }
+.nav-utente a{
+    color: #606368;
+}
+#logo{
+    margin-bottom: 25px;
+}
+.item-aside {
+    color:#606368 ;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
 
 /* corpo libreria mus */
 h2 {
@@ -13,6 +31,7 @@ h2 {
 h3, h5 {
     text-transform: capitalize;
     margin: 7px 0px;
+    color:white;
 }
 
 h5 {
@@ -52,9 +71,6 @@ img {
 .selezione {
     text-align: center;
     padding: 10px;
-}
-.selezione h3 {
-    color: white;
 }
 .titolo{
     margin: 30px 15px;
