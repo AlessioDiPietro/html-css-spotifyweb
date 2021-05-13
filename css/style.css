@@ -1,28 +1,27 @@
+main {
+    height: calc(100% - 100px);
+}
+.row {
+    width: 100%;
+}
 /* barra laterale utente */
-.nav-utente {
+aside {
     background-color: black;
-    min-height:100vh;
-    padding: 15px;
-}
-.nav-utente a{
-    color: #606368;
-}
-#logo{
-    margin-bottom: 15px;
-}
-.nav-utente div  {
     color:#606368 ;
-    margin-bottom: 15px;
-    font-weight: bold;
+    padding: 30px;
     text-transform: capitalize;
+    font-size: 20px;
 }
-.nav-utente ul {
-    height: 65vh;
+.aside-container {
+    min-height:480px;
+    height: 100%;
 }
-.nav-utente li {
+#logo {
+    width: 75%;
+}
+aside nav {
     margin: 30px 0;
 }
-
 
 
 
@@ -37,6 +36,7 @@ h2 {
 }
 h3, h5 {
     text-transform: capitalize;
+    font-size: 14px;
     margin: 10px 0px;
     color:white;
 }
@@ -59,10 +59,9 @@ img {
     color: white;
     border: 1px white solid;
     border-radius: 20px;
-    margin: 30px 10px;
+    margin: 50px 10px;
     padding: 5px 30px;
 }
-
 /* nav ricerca macroguppi */
 .col-xs-12 ul li {
     display: inline-block;
@@ -87,5 +86,6 @@ img {
 /* footer */
 footer {
     background-color: #282828;
-    height: 10vh;
+    height: 100px;
+    width: 100%;
 }

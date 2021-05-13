@@ -107,14 +107,25 @@ li {
     }
 
     /* posizioni */
-    .inline-xs{
+    .inline{
         display: inline;
     }
-    .m-left10-xs{
+    .m-left10{
         margin-left: 10px;
     }
-    .overflow-y-auto-xs {
+    .m-bottom-20 {
+        margin-bottom: 20px;
+    }
+    .overflow-y-auto {
         overflow-y:auto;
+    }
+    .overflow-y-hidden {
+        overflow-y:hidden;
+    }
+
+    /* position */
+    .p-relative {
+        position: relative;
     }
 } 
 
