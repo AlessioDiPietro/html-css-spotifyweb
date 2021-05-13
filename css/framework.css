@@ -116,6 +116,9 @@ li {
     .m-bottom-20 {
         margin-bottom: 20px;
     }
+    .m-top-50 {
+        margin-top: 50px;
+    }
     .overflow-y-auto {
         overflow-y:auto;
     }
