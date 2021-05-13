@@ -10,7 +10,7 @@ aside {
     color:#606368 ;
     padding: 30px;
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 20px;
 }
 .aside-container {
     min-height:480px;
@@ -25,14 +25,22 @@ aside nav div {
 aside nav {
     margin: 50px 0;
 }
-.plus {
-    
-}
 .plus i  {
     transform: scale(3);
-    margin: 0 24px;
+    margin: 0 20px;
 }
-
+.plus-playlist {
+    overflow: hidden;
+}
+.list-playlist {
+    overflow-y: auto;
+    height:50%;
+    margin-top: 50px;
+   
+}
+.list-playlist li {
+    margin: 20px 0;
+}
 
 
 
@@ -42,12 +50,12 @@ aside nav {
 /* corpo libreria mus */
 h2 {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     text-transform: capitalize;
 }
 h3, h5 {
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 25px;
     margin: 15px 0px;
     color:white;
 }
@@ -72,7 +80,7 @@ img {
     border-radius: 20px;
     margin: 50px 35px;
     padding: 5px 30px;
-    font-size: 30px;
+    font-size: 15px;
 }
 /* nav ricerca macroguppi */
 .col-xs-12 ul li {
@@ -101,4 +109,8 @@ footer {
     background-color: #282828;
     height: 100px;
     width: 100%;
+    position: fixed;
+    z-index: 998;
+    top: calc(100% - 100px);
+    left: 0;
 }
