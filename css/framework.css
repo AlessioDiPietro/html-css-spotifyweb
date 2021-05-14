@@ -92,7 +92,8 @@ li {
 
     .bottom-xs {align-items: flex-end;}
     }
-
+    .self-center-xs {align-self:center;}
+    .self-end-xs {align-self:flex-end;}
     /* decorazioni xs */
     .rotondo-xs {
         border-radius: 50%;
