@@ -208,10 +208,14 @@ footer div {
     width: 100%;
     margin: 20px ;
 }
-#played {
+.played {
     width: 30%;
     border: 3px solid white;
     border-radius: 20%;
+    margin-bottom: 2px;
+}
+.play{
+    border: 2px solid;
 }
 .setting-nav {
     height: 0px;
