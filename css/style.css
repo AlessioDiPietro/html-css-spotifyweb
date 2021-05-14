@@ -10,14 +10,15 @@ body {
 /* barra laterale utente */
 aside {
     background-color: black;
-    color:#606368 ;
     padding-left: 30px;
     padding-top:30px;
     text-transform: capitalize;
     font-size: 20px;
     height: 100vh;
     min-width: 250px;
-    
+}
+aside a, footer a {
+    color:#606368 ;
 }
 aside nav div {
     margin: 10px 0;
@@ -112,10 +113,11 @@ img {
     color: white;
     border: 1px white solid;
     border-radius: 20px;
-    margin: 25px 70px;
+    margin: 30px 70px;
     padding: 5px 30px;
-    font-size: 25px;
+    font-size: 15px;
 }
+
 /* nav ricerca macroguppi */
 .col-xs-12 ul li {
     display: inline-block;
@@ -155,7 +157,7 @@ footer {
 footer div {
     height: 100px;
 }
-.nav-player,.play-status,.setting-nav a{
+.nav-player a,.play-status,.setting-nav a{
     color:white;
 }
 /* section brano */
@@ -194,10 +196,10 @@ footer div {
     font-size:35px
 }
 .nav-player i{
-    margin: 15px
+    margin: 20px
 }
 .play-status {
-    height: 50%;
+    
     width: 100%;
     display: flex;
     line-height: 50px;
@@ -232,3 +234,39 @@ footer div {
     width: 100%;
 }
 
+
+/* hoverlay */
+
+/* libreria  */
+.layover {
+    display: none;
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    font-size: 60px;
+    color: white;
+    padding: 79px 95px;
+    background-color: rgba(0,0,0,0.6);
+} 
+.selezione:hover .layover{
+    display: inline-block; 
+}
+
+/* btn-white */
+.btn a:hover {
+    color: white;
+}
+/* btn-icon-white */
+.btn a i:hover {
+    color: white;
+}
+/* large */
+.upgrade a:hover {
+    font-size: 20px;
+}
+.nav-player a:nth-child(3) i:hover {
+    font-size: 50px;
+}
+.played:hover {
+    border: 5px solid limegreen;
+}
