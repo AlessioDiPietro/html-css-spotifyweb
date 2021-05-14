@@ -102,16 +102,17 @@ img {
 /* bottone upgrade */
 .upgrade {
     background-color: rgba(0, 0, 0, 0.6);
-    height: 150px;
+    height: 100px;
     position: fixed;
     width: 84%;
+    z-index: 999;
 }
 .upgrade a {
     text-transform: uppercase;
     color: white;
     border: 1px white solid;
     border-radius: 20px;
-    margin: 50px 35px;
+    margin: 25px 70px;
     padding: 5px 30px;
     font-size: 25px;
 }
@@ -120,7 +121,7 @@ img {
     display: inline-block;
     margin: 15px;
     font-size: 20px;
-    padding-top: 150px
+    padding-top: 100px
 }
 .col-xs-12 ul li a {
     color: #606368;
@@ -177,6 +178,7 @@ footer div {
 .container-items i {
     font-size: 25px;
     color: #606368;
+    margin: 0 5px;
 
 }
 
