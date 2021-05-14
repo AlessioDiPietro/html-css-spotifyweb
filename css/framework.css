@@ -125,7 +125,23 @@ li {
     .p-relative {
         position: relative;
     }
-} 
+    .p-absolute {
+        position: absolute;
+    }
+
+    /* float */
+    .clearfix::after {
+        display: table;
+        content:"";
+        clear: both;
+    }
+    .float-l {
+        float: left;
+    }
+    .float-r{
+        float:right;
+}
+
 
 @media (min-width: 1200px) {
     .container {
