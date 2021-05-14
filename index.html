@@ -218,8 +218,8 @@
 
                         <!-- icone player -->
                             <div class="container-items">   
-                                <i class="far fa-heart"></i>
-                                <i class="far fa-folder"></i>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                                <a href="#"><i class="far fa-folder"></i></a>>
                             </div>
                         </div>    
                     </div>
@@ -232,19 +232,22 @@
 
                         
                         <!-- navigazione player -->
-                        <div class="nav-player">
-                            <i class="fas fa-random"></i>
-                            <i class="fas fa-step-backward"></i>
-                            <i class="far fa-play-circle"></i>
-                            <i class="fas fa-step-forward"></i>
-                            <i class="fas fa-redo-alt"></i>
-                        </div>
+                        <nav class="nav-player">
+                            <a><i class="fas fa-random"></i></a>
+                            <a><i class="fas fa-step-backward"></i></a>
+                            <a><i class="far fa-play-circle"></i></a>
+                            <a><i class="fas fa-step-forward"></i></a>
+                            <a><i class="fas fa-redo-alt"></i></a>
+                        </nav>
                         
                         <!-- barra-play-status -->
                         <div class="play-status self-end-xs">
-                        <span>1:13</span>
-                        <div><hr></div>
-                        <span>4:15</span>
+                            <span>1:13</span>
+                            <div>
+                                <span><hr id="played"></span>
+                                <span><hr id="play"></span>
+                            </div>
+                            <span>4:15</span>
                         </div>
                     </div>
                 </section>
@@ -252,7 +255,20 @@
                 
                 <!-- section impostazioni audio -->
                 <section class="col-xs-2">
-                    <div class="row between-xs middle-xs"></div>
+                    <div class="row between-xs middle-xs">
+
+                        <!-- icone impostazioni  -->
+                        <div class="setting-nav end-xs">
+                            <a href="#"><i class="fas fa-list-ul"></i></a>
+                            <a href="#"><i class="fas fa-desktop"></i></a>
+                            <a href="#"><i class="fas fa-volume-up"></i></a>
+                            <div class="volume">
+                                <hr id="played">
+                                <hr>
+                            </div>
+
+                        </div>
+                    </div>
                 </section>
             </div>
         </footer>
