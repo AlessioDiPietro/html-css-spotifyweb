@@ -130,7 +130,7 @@ img {
 .macrogruppi ul li {
     display: inline-block;
     font-size: 20px;
-    margin:10px 20px;
+    margin:10px 8px;
 }
 .macrogruppi ul li a {
     color: #606368;
@@ -142,7 +142,6 @@ img {
 .selezione {
     text-align: center;
     padding: 10px;
-    min-width: 195px;
 }
 .titolo{
     margin: 30px 15px;
