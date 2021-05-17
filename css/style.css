@@ -35,9 +35,15 @@ aside nav {
     width: 100%;
     padding-right: 30px;
     background-color: black;
+    font-size: 12px; 
+}
+.bottom-aside i{
+    color:lightslategray;
+    margin-right: 5px;
 }
 .bottom-aside h3{
-    margin: 5px 0;
+    margin: 5px 0px;
+    display: inline-block;
 }
 .top-aside {
     height: 400px;
@@ -112,19 +118,19 @@ img {
     color: white;
     border: 1px white solid;
     border-radius: 20px;
-    margin: 30px 70px;
+    margin: 30px 100px;
     padding: 5px 30px;
     font-size: 15px;
 }
 
 /* nav ricerca macroguppi */
-.col-xs-12 ul li {
+.macrogruppi ul li {
     display: inline-block;
     margin: 15px;
     font-size: 20px;
     padding-top: 100px
 }
-.col-xs-12 ul li a {
+.macrogruppi ul li a {
     color: #606368;
     font-weight: bolder;
     text-transform: uppercase;
@@ -174,7 +180,7 @@ footer div {
     height: 50px;
 }
 .container-items {
-    margin: 0 3px;
+    margin: 0 3%;
     display: flex;
     align-items: center;
 
@@ -188,7 +194,7 @@ footer div {
     font-weight: bold;
 }
 .container-items i {
-    font-size: 30px;
+    font-size: 270%;
     color: #606368;
     margin: 0 5px;
 }
@@ -196,7 +202,7 @@ footer div {
 /* section nav player */
 .nav-player {
     height: 50%;
-    width: 100%;
+    width: 60%;
     font-size: 18px;
     display: flex;
     margin-top: 5px;
