@@ -124,11 +124,13 @@ img {
 }
 
 /* nav ricerca macroguppi */
+.macrogruppi {
+    margin-top:100px;
+}
 .macrogruppi ul li {
     display: inline-block;
-    margin: 15px;
     font-size: 20px;
-    padding-top: 100px
+    margin:10px 20px;
 }
 .macrogruppi ul li a {
     color: #606368;
@@ -140,6 +142,7 @@ img {
 .selezione {
     text-align: center;
     padding: 10px;
+    min-width: 195px;
 }
 .titolo{
     margin: 30px 15px;
