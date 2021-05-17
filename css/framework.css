@@ -91,9 +91,17 @@ li {
     .middle-xs{align-items: center;}
 
     .bottom-xs {align-items: flex-end;}
-    }
+
     .self-center-xs {align-self:center;}
+
     .self-end-xs {align-self:flex-end;}
+
+    /* wrap & nowrap */
+    .wrap {flex-wrap: wrap;}
+
+    .no-wrap {flex-wrap: nowrap;}
+
+    .reverse-wrap {flex-wrap: wrap-reverse;}
     /* decorazioni xs */
     .rotondo-xs {
         border-radius: 50%;
