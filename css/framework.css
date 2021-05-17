@@ -400,6 +400,7 @@ li {
 @media (max-width: 480px) {
     .container {
         margin: 0 auto;
+        width: 480px;
     }     
     .col-xs {
         flex-grow: 1;
