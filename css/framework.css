@@ -215,7 +215,6 @@ li {
     .middle-md {align-items: center;}
 
     .bottom-md {align-items: flex-end;}
-    }
         /* wrap & nowrap */
     .wrap-md {flex-wrap: wrap;}
 
@@ -335,7 +334,6 @@ li {
     .middle-sm {align-items: center;}
 
     .bottom-sm {align-items: flex-end;}
-    }
 
         /* wrap & nowrap */
     .wrap-sm {flex-wrap: wrap;}
@@ -454,7 +452,6 @@ li {
     .middle-xs {align-items: center;}
 
     .bottom-xs {align-items: flex-end;}
-    }
 
         /* wrap & nowrap */
     .wrap-xs {flex-wrap: wrap;}
