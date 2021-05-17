@@ -320,6 +320,7 @@ footer div {
     .libreria {
         max-width: calc(100% - 50px);
     }
-
-    
+    .upgrade {
+    width: 89%;
+    left: 11%;
 }
