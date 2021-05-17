@@ -140,12 +140,10 @@ img {
 }
 .album-maxi {
     width: 100%;
-    
-    background-color: black;
 }
 .album-maxi i {
     position: absolute;
-    left: 40%;
+    left: 42%;
     top: 42%;
 
 }
